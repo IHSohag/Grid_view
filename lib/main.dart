@@ -17,57 +17,60 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           leading: const Icon(Icons.menu),
         ),
-        body: GridView.count(
-          crossAxisCount: 3,
-          mainAxisSpacing: 10,
-          crossAxisSpacing: 10,
-          children: [
-            Container(
-              width: 200,
-              height: 200,
-              color: Colors.teal,
-            ),
-            Container(
-              width: 200,
-              height: 200,
-              color: Colors.teal,
-            ),
-            Container(
-              width: 200,
-              height: 200,
-              color: Colors.red,
-            ),
-            Container(
-              width: 200,
-              height: 200,
-              color: Colors.greenAccent,
-            ),
-            Container(
-              width: 200,
-              height: 200,
-              color: Colors.green,
-            ),
-            Container(
-              width: 200,
-              height: 200,
-              color: Colors.grey,
-            ),
-            Container(
-              width: 200,
-              height: 200,
-              color: Colors.orange,
-            ),
-            Container(
-              width: 200,
-              height: 200,
-              color: Colors.black,
-            ),
-            Container(
-              width: 200,
-              height: 200,
-              color: Colors.blue,
-            ),
-          ],
+        body: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: GridView.count(
+            crossAxisCount: 3,
+            mainAxisSpacing: 10,
+            crossAxisSpacing: 10,
+            children: [
+              Container(
+                width: 200,
+                height: 200,
+                color: Colors.teal,
+              ),
+              Container(
+                width: 200,
+                height: 200,
+                color: Colors.teal,
+              ),
+              Container(
+                width: 200,
+                height: 200,
+                color: Colors.red,
+              ),
+              Container(
+                width: 200,
+                height: 200,
+                color: Colors.greenAccent,
+              ),
+              Container(
+                width: 200,
+                height: 200,
+                color: Colors.green,
+              ),
+              Container(
+                width: 200,
+                height: 200,
+                color: Colors.grey,
+              ),
+              Container(
+                width: 200,
+                height: 200,
+                color: Colors.orange,
+              ),
+              Container(
+                width: 200,
+                height: 200,
+                color: Colors.black,
+              ),
+              Container(
+                width: 200,
+                height: 200,
+                color: Colors.blue,
+              ),
+            ],
+          ),
         ),
       ),
     );
